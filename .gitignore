@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build output
+dist/
+
+# Misc
+.DS_Store
+*.tgz
+
+# Prevent project files from being tracked by git
+*.bun-build
+bun.lock
+report.txt
+package-lock.json
+random-number-generator-*
